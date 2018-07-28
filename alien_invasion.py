@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# main function
 import pygame
 
 from settings import Settings
