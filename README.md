@@ -1,4 +1,5 @@
 # pygame_alien_invasion
+## 概述
 - 这是一个用python+pygame写的射击小游戏；
 - 主要是参考Eric Matthes【美】所著《Python Crash Course》书中的一个实践项目。
 - 游戏的主程序在alien_invasion.py中，运行此程序即可开始游戏。
@@ -8,3 +9,15 @@
 - 飞船复活时，屏幕上所有外星人消失，新的外星人集群由屏幕上方进入。
 - 一个外星人集群全部被消灭后，新的外星人集群才会进入屏幕。
 - 游戏由消灭的外星人集群自动升级，同时外星人移动速度加快，击中得分也随之增加。
+## 文件说明
+- alien.py是外星人模块
+- alien_invasion.py是主程序，运行此代码即可开始游戏
+- bullet.py是子弹模块
+- button.py是按钮模块
+- game_function.py是动作及相应模块
+- game_stats.py 是游戏状态模块
+- scoreboard.py 是积分牌模块
+- settint.py 是游戏设置模块
+- ship.py是飞船模块
+
+
